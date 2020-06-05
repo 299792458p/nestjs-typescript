@@ -12,7 +12,7 @@ const defaultTheme: ThemeInterface = {
         large: '105rem',
     },
     colors: {
-        tonalOffset: 0.3,
+        tonalOffset: 0.4,
         primary: {
             main: '#32329f',
             light: ({ colors }) => lighten(colors.tonalOffset, colors.primary.main),
@@ -20,7 +20,7 @@ const defaultTheme: ThemeInterface = {
             contrastText: ({ colors }) => readableColor(colors.primary.main),
         },
         success: {
-            main: '#37d247',
+            main: '#6BBD5B',
             light: ({ colors }) => lighten(colors.tonalOffset * 2, colors.success.main),
             dark: ({ colors }) => darken(colors.tonalOffset, colors.success.main),
             contrastText: ({ colors }) => readableColor(colors.success.main),
@@ -99,7 +99,7 @@ const defaultTheme: ThemeInterface = {
     },
     typography: {
         fontSize: '14px',
-        lineHeight: '1.5em',
+        lineHeight: '1em',
         fontWeightRegular: '400',
         fontWeightBold: '600',
         fontWeightLight: '300',
@@ -113,7 +113,7 @@ const defaultTheme: ThemeInterface = {
         },
         code: {
             fontSize: '13px',
-            fontFamily: 'Courier, monospace',
+            fontFamily: 'Roboto, Courier, monospace',
             lineHeight: ({ typography }) => typography.lineHeight,
             fontWeight: ({ typography }) => typography.fontWeightRegular,
             color: '#e53935',
