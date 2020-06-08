@@ -34,7 +34,7 @@ async function bootstrap() {
       backgroundColor: '#F0F0F0',
       altText: description
     },
-    sortPropsAlphabetically: true,
+    sortPropsAlphabetically: false,
     hideDownloadButton: true,
     hideHostname: false,
     theme: defaultTheme
